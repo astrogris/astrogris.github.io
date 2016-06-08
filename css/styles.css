@@ -1,0 +1,388 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+.navbar-right {
+    margin-right: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #9d9d9d;
+}
+
+.navbar-brand{
+    padding: 7px 10px 10px 15px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #9d9d9d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    max-width: 100%;
+    background: url("../img/wallpaper-horizon.jpg");
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+header .center-header {
+	vertical-align: top;
+	margin-top: 80px;
+}
+
+header .intro-text .name {
+	vertical-align: top;
+	margin-top: 20px;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 2em;
+}
+
+header .intro-text .skills {
+	display: block;
+	font-family: 'Alegreya Sans', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+hr.light,
+hr.primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+
+hr.light {
+    margin: 15px auto 20px;
+    border-color: #fff;
+}
+
+
+hr.primary {
+    border-color: #8A8F91;
+}
+
+#quien-soy {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+
+#formacion{
+    padding-top: 50px;
+    background: #8A8F91;
+    padding-bottom: 60px;
+}
+
+#contacto{
+    padding-top: 50px;
+    padding-bottom: 125px;   
+}
+
+#quien-soy .quien-soy-item {
+    right: 0;
+    margin: 0 0 50px;
+}
+
+#quien-soy h2 {
+    margin: 0;
+    color: #8A8F91;
+    font-size: 3em;
+}
+
+#quien-soy h3 {
+    text-align:center; 
+    font-size: 2.2rem;
+    color:#F2AF15; 
+    margin-top:-20px; 
+    margin-bottom: 30px;    
+}
+
+#quien-soy img {
+	display: block; 
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+#quien-soy span {
+	display:block; 
+	margin:0 auto; 
+	width:80%; 
+	text-align:justify;
+}
+
+#formacion h2 {
+    margin: 0;
+    color: #FFF;
+    font-size: 3em;
+}
+
+#formacion h3 {
+    font-size: 2.2rem;
+    color: #FFF;
+  
+}
+
+#formacion h4 {
+    font-size: 1.3em;
+    color: #FFF;
+}
+
+#formacion span {
+    color: #FFF;
+    font-size: 1.2em;
+    margin-left: 0.5%;
+}
+
+#formacion p {
+    font-size: 1.1em;
+    color: #FFF;
+    padding: 0.9em 0 0 0;
+    text-align: justify;
+}
+
+#formacion label {
+    font-size: 1em;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.formacion-estudios {
+    padding: 0.8em 0 0;
+}
+
+.progress {
+    margin: 10px 0;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.html {
+    background-color: #F2E115;
+    box-shadow: none;
+    width:70%;
+}
+
+.css {
+    background-color: #7CE4EE;
+    box-shadow: none;
+    width:60%;
+}
+
+.js {
+    background-color: #7CEE8A;
+    box-shadow: none;
+    width:65%;
+}
+
+.bs {
+    background-color: #EC7CEE;
+    box-shadow: none;
+    width:60%;
+}
+
+.php {
+    background-color: #AD7CEE;
+    box-shadow: none;
+    width:60%;
+}
+
+#contacto h2 {
+    margin: 0;
+    color: #8A8F91;
+    font-size: 3em;
+}
+
+.form-group-contacto {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .8em;
+    border-bottom: 2px solid rgba(242,175,21,0.3);
+}
+
+.form-group-contacto input,
+.form-group-contacto textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+.form-group-contacto label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    visibility: hidden;
+}
+
+.btn-success{
+    background-color: #F2AF15;
+    border: 0px;
+}
+
+.btn-success:hover{
+    background-color: #8A8F91;
+    border: 0px;
+}
+
+footer {
+    background-color:#000; 
+    height:50px;
+}
+
+footer .copyright{
+    display: block;
+    color: #FFF;
+    font-family: 'Alegreya Sans', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;    
+    margin-top: 10px;    
+}
+
+.btn-outline { 
+ border: solid 1px #FFF;    
+ font-size: 24px; 
+ color: #FFF; 
+ background: 0 0; 
+ transition: all .3s ease-in-out; 
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline.active { 
+  border: solid 2px #FFF;    
+  color: #9d9d9d; 
+  background: #FFF; 
+}
+
+.btn-social { 
+  display: inline-block; 
+  width: 48px; 
+  height: 48px; 
+  border: 2px solid #FFF; 
+  border-radius: 100%; 
+  text-align: center; 
+  font-size: 24px; 
+  line-height: 46px; 
+}
+
+.list-inline { 
+  list-style: none;
+  margin-top: 5px; 
+  margin-bottom: 5px;
+  margin-left: 5px; 
+}
+
+.list-inline > li { 
+  display: inline-block;
+  margin-left: -5px;
+}
+
+.social-links { 
+  -webkit-animation: fade-in-down 0.9s; 
+  animation: fade-in-down 0.9s; 
+  -webkit-animation-delay: 0.2s; 
+  animation-delay: 0.2s; 
+}
+
+.scroll-top {
+    z-index: 10;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.btn-warning {
+    background-color: #CCC;   
+    border: 0;
+}
+
+.btn-warning:hover, .btn-warning:active, .btn-warning:focus{
+    background-color: #000;
+    border: 0;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
