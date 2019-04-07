@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "assets"
+		},
+		{
+			"path": "assets\\images"
 		}
 	]
 }
