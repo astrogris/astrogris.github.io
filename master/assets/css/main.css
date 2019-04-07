@@ -19,7 +19,7 @@ height: 200px;
 position: absolute;
 left: 50%;
 top: 50%;
-background-image: url(../images/ajax-loader.gif);
+background-image: url('../images/ajax-loader.gif');
 background-repeat: no-repeat;
 background-position: center;
 margin: -100px 0 0 -100px;
