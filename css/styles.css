@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-brand{
-    padding: 7px 10px 10px 15px;
+    padding: 15px 10px 15px 10px;
 }
 
 .navbar-nav>li>a {
@@ -86,20 +86,25 @@ header .center-header {
 	margin-top: 80px;
 }
 
+header .intro-text {
+    padding: 20px;
+}
+
 header .intro-text .name {
 	vertical-align: top;
 	margin-top: 20px;
     display: block;
-    text-transform: uppercase;
     font-family: 'Alegreya Sans', 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 header .intro-text .skills {
 	display: block;
 	font-family: 'Alegreya Sans', 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 1.25em;
-    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 hr.light,
@@ -310,6 +315,26 @@ footer .copyright{
     font-size: 1.25em;
     font-weight: 400;    
     margin-top: 10px;    
+}
+
+.btn-outline-top { 
+ font-size: 24px; 
+ color: #FFF; 
+ background: 0 0; 
+ transition: all .3s ease-in-out; 
+}
+
+.btn-outline-top:hover, .btn-outline-top:focus, .btn-outline-top.active { 
+  color: #9d9d9d; 
+  background: #FFF; 
+}
+
+.btn-top { 
+  width: 48px; 
+  height: 48px; 
+  border-radius: 100%; 
+  text-align: center; 
+  font-size: 20px; 
 }
 
 .btn-outline { 
